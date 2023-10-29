@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import react, {useEffect, useState} from 'react';
 import './App.css';
-
+import Chord from '@tombatossals/react-chords/lib/Chord'
+import {DivChord} from './style'
+import axios from 'axios';
+import  Data from './data/data.json'
+import ChordHome from './ChordHome';
 function App() {
+
+  
+
+ 
+ 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <ChordHome/>
+     
     </div>
   );
 }
