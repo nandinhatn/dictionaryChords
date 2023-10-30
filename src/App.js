@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-     <ChordHome/>
+     <ChordHome key={Math.floor(Math.random() * 20000)}/>
      
     </div>
   );
