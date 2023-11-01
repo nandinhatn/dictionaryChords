@@ -14,6 +14,15 @@ const ChordComponent = (props)=>{
         else if(sufix=='minor'){
             return 'm'
         }
+        else if(sufix=='dim'){
+            return '°'
+        }
+         else if(sufix=='dim7'){
+            return '7°'
+        }
+         else if(sufix=='69'){
+            return '6(9)'
+        }
         console.log(sufix)
         return sufix
     
@@ -38,6 +47,7 @@ const ChordComponent = (props)=>{
         
         chord={props.getChord(item)}
         instrument={props.instrument}
+        
         lite={props.lite}
         />
                         </DivChord>

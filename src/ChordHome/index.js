@@ -1,5 +1,5 @@
 import react, {useEffect, useState} from 'react'
-import {DivChord,ListKeys,ContainerChords,ContainerInner,Li} from './style'
+import {DivChord,ListKeys,ContainerChords,ContainerInner,Li, H1} from './style'
 import Chord from '@tombatossals/react-chords/lib/Chord'
 import api from '../data/api'
 
@@ -29,7 +29,7 @@ const ChordHome = ()=>{
        
     } ) */
 
-    console.log(Data.chords)
+   
    
     setDataKeys(Data.keys)
     setChords(Data.chords)
@@ -41,7 +41,7 @@ const ChordHome = ()=>{
 
    const selectChord =(chord)=>{
 
-        console.log("cliquei", chord)
+       
         if(chord=='C'){
             setExib(chords.C)
         }
@@ -81,7 +81,7 @@ const ChordHome = ()=>{
         
        setExibAll(false)
       
-       console.log(exib) 
+      
    }
 
   function getChord(chordPosition){
@@ -121,7 +121,7 @@ function generateKey () {
 const lite = false // defaults to false if omitted
     return (
         <>
-        <h1 key={generateKey()}>Dicionário de Acordes</h1>
+        <H1 key={generateKey()}>Dicionário de Acordes de Violão</H1>
        
         
             <ListKeys key={generateKey()}>
