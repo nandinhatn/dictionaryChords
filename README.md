@@ -13,7 +13,7 @@ O projeto foi realizado para atividade extensionista para a Graduação em Engen
 
 ## View Project 
     O projeto pode ser visto em :
-    https://poppymidia.com/dicionario/
+    https://nandinhatn.github.io/dictionary_pages/
 
 
 
